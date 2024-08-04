@@ -7,6 +7,7 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
   background-color: #0e0e0e;
+  line-height: 1.3;
   font-size: 18px;
   color: #fff;
   font-weight: 400;
@@ -94,13 +95,62 @@ a {
 .about__inner {
   display: flex;
   justify-content: space-between;
-  /* gap: 220px; */
 }
 
 .about__info {
   max-width: 200px;
 }
 
+.about__list {
+  margin-bottom: 30px;
+}
+
 .about__text {
   max-width: 770px;
+}
+
+.about__text p {
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.video {
+  position: relative;
+  background-image: url("/images/video.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.video__title,
+.video__subtitle {
+  color: #85ccdc;
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.video__title {
+  position: absolute;
+  top: 350px;
+  left: 800px;
+}
+
+.video__subtitle {
+  position: absolute;
+  top: 430px;
+  left: 1050px;
+}
+
+.youtube {
+  position: absolute;
+  top: 500px;
+  left: 800px;
+}
+
+.video p {
+  position: absolute;
+  top: 540px;
+  left: 910px;
 }
