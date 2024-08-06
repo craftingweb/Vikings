@@ -90,6 +90,7 @@ a {
   font-size: 36px;
   text-align: center;
   padding-bottom: 100px;
+  letter-spacing: 0.5rem;
 }
 
 .about__inner {
@@ -178,4 +179,31 @@ a {
 }
 .seasons__card:hover {
   opacity: 0.5;
+}
+
+.charachters {
+  margin-bottom: 100px;
+}
+
+.slider {
+  position: relative;
+  /* max-width: 775px; */
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  transform: translateY(-50%);
+}
+
+.slick-prev {
+  z-index: 2;
+  left: 40px;
+}
+
+.slick-next {
+  right: 40px;
 }
