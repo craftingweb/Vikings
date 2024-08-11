@@ -171,6 +171,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   gap: 75px;
+  justify-content: center;
 }
 
 .seasons__card {
@@ -277,7 +278,6 @@ a {
 }
 .text__number span {
   color: #fff;
-
   font-family: "Roboto Condensed";
   font-size: 36px;
   font-style: normal;
@@ -287,4 +287,101 @@ a {
 
 .text__inner p {
   margin-bottom: 15px;
+}
+
+@media (max-width: 1350px) {
+  .video__title {
+    left: 400px;
+  }
+  .video__subtitle {
+    left: 650px;
+  }
+  .youtube {
+    top: 520px;
+    left: 600px;
+  }
+  .video p {
+    top: 555px;
+    left: 710px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .video__title {
+    left: 200px;
+  }
+  .video__subtitle {
+    left: 450px;
+  }
+  .youtube {
+    top: 520px;
+    left: 400px;
+  }
+  .video p {
+    top: 555px;
+    left: 510px;
+  }
+  .menu__list {
+    font-size: 14px;
+  }
+  .title__img {
+    max-width: 600px;
+    padding-top: 78px;
+  }
+  .about__inner {
+    display: block;
+  }
+  .about__info {
+    text-align: center;
+    max-width: 100%;
+  }
+  .about__text {
+    text-align: justify;
+    max-width: 100%;
+  }
+  .title {
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .video__title {
+    left: 100px;
+  }
+  .video__subtitle {
+    left: 350px;
+  }
+  .youtube {
+    top: 520px;
+    left: 350px;
+  }
+  .video p {
+    top: 555px;
+    left: 470px;
+  }
+}
+
+@media (max-width: 700px) {
+  .video__title {
+    left: 1px;
+  }
+  .video__subtitle {
+    left: 3px;
+  }
+  .youtube {
+    top: 520px;
+    left: 3px;
+  }
+  .video p {
+    top: 555px;
+    left: 120px;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu__list {
+    flex-wrap: wrap;
+  }
+  .title__img {
+    max-width: 300px;
+  }
 }
