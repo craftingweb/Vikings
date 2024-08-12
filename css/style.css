@@ -306,6 +306,21 @@ a {
   }
 }
 
+@media (max-width: 1200px) {
+  .charachters__inner {
+    display: block;
+  }
+  .slider__text {
+    max-width: 100%;
+  }
+  .slider {
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+  .charachters__inner {
+    text-align: center;
+  }
+}
 @media (max-width: 1000px) {
   .video__title {
     left: 200px;
@@ -344,6 +359,10 @@ a {
   }
 }
 @media (max-width: 800px) {
+  .charachters {
+    margin-bottom: 50px;
+  }
+
   .video__title {
     left: 100px;
   }

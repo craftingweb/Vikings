@@ -6,6 +6,14 @@ $(function () {
       '<button type="button" class="slick-prev slick-arrow"><img src="/images/slider-left-btn.png" /></button>',
     nextArrow:
       '<button type="button" class="slick-next slick-arrow"><img src="/images/slider-right-btn.png" /></button>',
+    responsive: [
+      {
+        breakpoint: 786,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
   });
 
   $(".slider__text").slick({
