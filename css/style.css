@@ -290,6 +290,9 @@ a {
 }
 
 @media (max-width: 1350px) {
+  .pager-header {
+    height: 127vh;
+  }
   .video__title {
     left: 400px;
   }
@@ -322,6 +325,12 @@ a {
   }
 }
 @media (max-width: 1000px) {
+  .logo-2 {
+    margin-top: -14px;
+  }
+  .menu__list {
+    text-align: center;
+  }
   .video__title {
     left: 200px;
   }
@@ -359,6 +368,9 @@ a {
   }
 }
 @media (max-width: 800px) {
+  .text__inner {
+    display: none;
+  }
   .charachters {
     margin-bottom: 50px;
   }
